@@ -1,0 +1,25 @@
+ul {
+            list-style: none;       /* Quita los puntos */
+            padding: 0;
+            margin: 0;
+            background: #005f9e;    /* Color de fondo */
+            display: flex;          /* Vuelve horizontal el menú */
+        }
+
+        ul li {
+            margin: 0;
+        }
+
+        ul li a {
+            display: block;         /* Permite padding en enlaces */
+            padding: 15px 25px;     /* Tamaño del botón */
+            color: white;
+            text-decoration: none;  /* Quita el subrayado */
+            font-family: Arial;
+            font-size: 18px;
+            transition: 0.3s;       /* Suaviza animación */
+        }
+
+        ul li a:hover {
+            background: #003e66;    /* Color al pasar el mouse */
+        }
