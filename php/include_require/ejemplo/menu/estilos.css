@@ -1,0 +1,41 @@
+/* 1. Estilos del contenedor del menú */
+.menu-principal {
+    background-color: #333; /* Fondo oscuro para la barra */
+    padding: 0;
+    margin: 0;
+}
+
+/* 2. Estilos de la lista (contenedor de los ítems) */
+.menu-principal ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Limpia cualquier float */
+    text-align: center; /* Centra los elementos si no hay suficiente espacio */
+}
+
+/* 3. Estilos de cada ítem (<li>) */
+.menu-principal li {
+    display: inline-block; /* La clave para la horizontalidad */
+}
+
+/* Alternativa para la horizontalidad: float */
+/* .menu-principal li {
+    float: left; 
+} */
+
+/* 4. Estilos de los enlaces (<a>) */
+.menu-principal li a {
+    display: block; /* Hace que todo el área del <li> sea clickeable */
+    color: white; /* Color del texto */
+    text-align: center;
+    padding: 14px 16px; /* Espaciado dentro de cada botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+/* 5. Estilos al pasar el ratón (hover) */
+.menu-principal li a:hover {
+    background-color: #555; /* Un tono más claro al pasar el ratón */
+    color: #ffd700; /* Un color de texto diferente al pasar el ratón */
+}
